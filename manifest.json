@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "shiver",
+  "description": "'we shiver alone, together' (2015), an artwork by Tristan Deratz",
+  "version": "1.0",
+
+
+   "permissions": [
+  /**  "http://*.abc.net.au/*",
+  */  "activeTab"
+  ],
+
+"background": {
+    "scripts": ["shiver_background.js"],
+    "persistent": false
+  },
+
+"browser_action":
+    {
+      "default_icon": "icon.png"
+
+    }
+
+}
